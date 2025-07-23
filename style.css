@@ -81,6 +81,7 @@
   max-width: 1140px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 100px;
   /* gap: 10px 0px; */
   /* background-color: yellow; */
 }
@@ -101,6 +102,41 @@
   background-color: #c74d06;
   cursor: pointer;
   transition: 0.4s;
+}
+
+/* Flowerandplant sec  */
+/* Flowerandplant sec  */
+/* Flowerandplant sec  */
+.badge-try-parent {
+  position: relative;
+}
+.flower-and-plant {
+  max-width: 1140px;
+  display: flex;
+  gap: 60px;
+  margin-bottom: 140px;
+}
+.flower-and-plant-right {
+  padding: 10px 20px;
+}
+.badge {
+  background-color: transparent;
+  height: 210px;
+  width: 210px;
+  position: absolute;
+  top: -80px;
+  right: 690px;
+  /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.417); */
+}
+.flower-and-plant h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.flower-and-plant li {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  /* max-width: 540px; */
 }
 /* mobile responsive */
 /* mobile responsive */
@@ -138,14 +174,15 @@
   /* Card section */
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
-    max-width: calc(100% - 10px);
-    /* gap: 10px; */
+    max-width: calc(100% - 20px);
+    margin: 0px auto;
+    gap: 10px;
   }
   .card-container img {
-    max-width: 190px;
     padding: 10px 0px;
+    width: 100%;
   }
   .card-container {
-    gap: 0;
+    gap: 10px;
   }
 }
