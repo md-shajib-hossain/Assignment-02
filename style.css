@@ -55,6 +55,48 @@
 }
 .banner-right {
 }
+/* Our Plant Section */
+/* Our Plant Section */
+/* Our Plant Section */
+
+.our-plant {
+  text-align: center;
+}
+.our-plant h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.our {
+  color: #e95a08;
+}
+.our-plant p {
+  font-size: 1.25rem;
+  max-width: 890px;
+}
+
+/*  Our plant Card Section */
+/*  Our plant Card Section */
+
+.card-grid-marbo {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-container {
+  text-align: center;
+  /* max-width: 270px; */
+  max-height: 486px;
+  margin: 0 auto;
+}
+.btn-primary {
+  width: 100%;
+  font-size: 1.25rem;
+  color: white;
+  padding: 10px 0px;
+  background-color: #e95a08;
+  border: none;
+}
 /* mobile responsive */
 /* mobile responsive */
 /* mobile responsive */
