@@ -78,16 +78,13 @@
 /*  Our plant Card Section */
 
 .card-grid-marbo {
-  max-width: 1440px;
+  max-width: 1140px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 10px 0px;
 }
 .card-container {
   text-align: center;
-  /* max-width: 270px; */
-  max-height: 486px;
-  margin: 0 auto;
 }
 .btn-primary {
   width: 100%;
@@ -96,6 +93,11 @@
   padding: 10px 0px;
   background-color: #e95a08;
   border: none;
+}
+.btn-primary:hover {
+  background-color: #c74d06;
+  cursor: pointer;
+  transition: 0.4s;
 }
 /* mobile responsive */
 /* mobile responsive */
@@ -106,6 +108,7 @@
   .nav-bar {
     width: calc(100% - 10px);
     gap: 100px;
+    align-items: center;
   }
   .mbl-hidden {
     display: none;
@@ -127,5 +130,19 @@
   }
   .banner-left {
     width: calc(100% - 20px);
+  }
+
+  /* Card section */
+  .card-grid-marbo {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    gap: 10px;
+  }
+  .card-container img {
+    max-width: 170px;
+  }
+  .card-container {
+    gap: 20px;
+    /* width: 100%; */
   }
 }
