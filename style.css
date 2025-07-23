@@ -1,0 +1,36 @@
+* {
+  max-width: 1440px;
+  margin: 10px auto;
+  background-color: rgb(245, 248, 255);
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.bold {
+  font-weight: 700;
+}
+.orange-color {
+  color: #e95a08;
+}
+.dark2 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Nav bar style starts Bismillah */
+/* Nav bar style starts Bismillah */
+/* Nav bar style starts Bismillah */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
