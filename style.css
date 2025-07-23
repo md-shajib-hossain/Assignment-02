@@ -27,10 +27,63 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 300px;
 }
 .nav-items {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+/* Banner section starts */
+.banner {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+}
+.banner-left h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #e95a08;
+}
+.always {
+  color: black;
+}
+.banner-desc {
+  font-size: 1.5rem;
+}
+.banner-right {
+}
+/* mobile responsive */
+/* mobile responsive */
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+  /* nav bar */
+
+  .nav-bar {
+    width: calc(100% - 10px);
+    gap: 100px;
+  }
+  .mbl-hidden {
+    display: none;
+  }
+  .nav-items {
+    padding-right: 0 20px;
+  }
+
+  /*  banner Section */
+  .banner {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner-right img {
+    max-width: calc(100% - 0px);
+  }
+  .banner-left h1 {
+    font-size: 3rem;
+  }
+  .banner-left {
+    width: calc(100% - 20px);
+  }
 }
