@@ -270,4 +270,15 @@ a {
   .card-container {
     gap: 10px;
   }
+
+  /* flower and plant sec */
+  .flower-and-plant {
+    flex-direction: column;
+    max-width: calc(100% - 10px);
+    margin-bottom: 200px;
+  }
+  .flower-and-plant-left img {
+    max-width: 100%;
+    margin: 10px auto;
+  }
 }
