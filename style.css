@@ -151,7 +151,7 @@
 .latest-deals p {
   font-size: 1.5rem;
   max-width: 890px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .latest {
   color: #c74d06;
@@ -160,17 +160,17 @@
 /* 3 picture grid starts */
 
 .first-grid-item {
-  /* background: url("./assets/deal-bloom.png") no-repeat left top,
-    linear-gradient(#e1dfe1, #000000); */
   background-size: cover;
-  background-image: url(./assets/deal-bloom.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./assets/deal-bloom.png);
   background-repeat: no-repeat;
   width: 300px;
-  height: 200px;
+  height: 190px;
   display: grid;
   place-content: center;
   border-radius: 14px;
   border: none;
+  /* margin-bottom: 10px; */
 }
 .first-grid-item h1,
 a {
@@ -189,10 +189,12 @@ a {
 
 .second-grid-item {
   background-size: cover;
-  background-image: url(./assets/deal-zabo.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./assets/deal-zabo.png);
   background-repeat: no-repeat;
-  width: 300px;
-  height: 200px;
+  background-color: #000000c3;
+  width: 100%;
+  height: 400px;
   display: grid;
   place-content: center;
   border-radius: 14px;
@@ -201,27 +203,95 @@ a {
 .second-grid-item h1,
 a {
   color: White;
+  font-size: 50px;
   background-color: transparent;
 }
 
 /* 3rdpic */
 .third-grid-item {
   background-size: cover;
-  background-image: url(./assets/deal-ana.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./assets/deal-ana.png);
   background-repeat: no-repeat;
   width: 300px;
-  height: 200px;
+  height: 190px;
   display: grid;
   place-content: center;
   border-radius: 14px;
   border: none;
 }
-
+.third-grid-item h1,
+a {
+  background-color: transparent;
+  color: white;
+}
+.left-grid {
+  display: flex;
+  flex-direction: column;
+}
 .all-picture-grid {
+  display: flex;
+  max-height: 450px;
   max-width: 1140px;
-  display: grid;
-  grid-template-columns: 350px 600px auto 300px;
-  /* grid-template-columns: 300px 900px 300px; */
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.grid-right {
+  flex: 1;
+}
+
+/* semi footer start */
+.semi-footer {
+  margin: 0;
+}
+.semi-footer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./assets/news-letter-bg.png);
+  /* max-width: 1600px; */
+  height: 550px;
+  margin: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.semi-footer-container h1 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+}
+.semi-footer-container input {
+  display: block;
+  padding: 10px 400px 10px 20px;
+  background-color: transparent;
+  margin: 0px;
+  border: none;
+  font-size: 30px;
+}
+.btn-second {
+  margin: 0px;
+  border: none;
+  padding: 25px 50px;
+  background-color: #e95a08;
+  color: white;
+  font-size: 22px;
+}
+.btn-second:hover {
+  background-color: white;
+
+  border: 1px solid #e95a08;
+  cursor: pointer;
+  color: black;
+  transition: 0.4s;
+}
+
+.input-sec {
+  display: flex;
+  margin: 0px;
 }
 /* mobile responsive */
 /* mobile responsive */
