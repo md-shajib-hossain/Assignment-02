@@ -33,6 +33,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 300px;
+  margin-top: 10px;
   margin-bottom: 120px;
 }
 .nav-items {
@@ -314,6 +315,7 @@
     width: calc(100% - 10px);
     gap: 100px;
     align-items: center;
+    margin-top: 5px;
   }
   .mbl-hidden {
     display: none;
